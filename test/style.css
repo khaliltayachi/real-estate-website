@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+
+    font-family:Montserrat;
+    background-image: url('sources/Hero.png'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 952px;
+}
+.blur{
+    backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0);
+
+}
+.logo img {
+    padding-top: 16px;
+    padding-left: 112px;
+    float: left;
+}
+
+.nav {
+    padding-right: 32px;
+    padding-top: 16px;
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.block {
+    padding-top: 386px;
+    padding-left: 112px;
+    height: 283px;
+    width: 727px;
+    text-align:left;
+}
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.block button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.nvt h1{
+    text-align: center;
+    font-family:Playfair Display;
+    color: rgba(216, 7, 25, 1);
+    
+}
+.nvt p {
+    text-align: center;
+    color: black;
+}
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+.imgs button{
+    border-radius: 100%;
+}
+
+.img-container {
+    position: relative;
+    margin: 0 12px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+    
+}
+
+
+.imgs h2{
+    color:white;
+}
+.imgs p{
+    color: white;
+}
+.prds{
+    padding-left: 240px;
+    height: 157px;
+    width: 594px;
+    text-align:left;
+
+}
+.prds p {
+    text-align: left;
+}
+.prds h3 {
+    font-family: Playfair Display;
+    color: rgba(47, 35, 79, 1);
+}
+.prds div{
+    box-shadow: 0 0 5px 1px lightgrey;
+
+}
+.prds h1{
+    text-align: left;
+}
+.img-container:hover{
+    float: right;
+}
+.cover {
+    display: flex;
+    float: right;
+
+}
